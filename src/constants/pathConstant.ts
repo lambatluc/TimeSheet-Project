@@ -1,0 +1,12 @@
+export const HOME = '/projects';
+export const EDIT = `${HOME}/edit`;
+export const CREATE = `${HOME}/create`;
+export const PROJECT_CREATE_GENERAL = `${CREATE}/general`;
+export const PROJECT_EDIT_GENERAL = (id: string): string => `${EDIT}/general/${id}`;
+export const PROJECT_CREATE_TEAM = `${CREATE}/team`;
+export const PROJECT_EDIT_TEAM = (id: string): string => `${EDIT}/team/${id}`;
+export const PROJECT_CREATE_TASKS = `${CREATE}/tasks`;
+export const PROJECT_EDIT_TASKS = (id: string): string => `${EDIT}/tasks/${id}`;
+export const CONSTRUCTION = '/construction';
+export const LOGIN = '/login';
+export const VIEW = `${HOME}/view`;
